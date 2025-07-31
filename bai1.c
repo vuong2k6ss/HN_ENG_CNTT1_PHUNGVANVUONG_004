@@ -24,7 +24,6 @@ void undoCommand(CommandStack* executedStack, CommandStack* redoStack);
 void redoCommand(CommandStack* executedStack, CommandStack* redoStack);
 void viewCurrentCommand(CommandStack* executedStack);
 void listExecutedCommands(CommandStack* executedStack);
-void clearHistory(CommandStack* executedStack, CommandStack* redoStack);
 void freeStack(CommandStack* stack);
 void toUpperCase(char* str);
 void displayMenu();
